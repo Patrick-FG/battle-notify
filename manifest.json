@@ -21,7 +21,7 @@
         "config/slayer.js": {"overwrite": false, "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"},
         "config/sorcerer.js": {"overwrite": false, "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"},
         "config/valkyrie.js": {"overwrite": false, "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"},
-        "config/warrior.js": {"overwrite": false, "hash": "37e90aed3d5be988226d07135cad47f1ba57857316f8deac30221fc608698bdc"},
+        "config/warrior.js": {"overwrite": false, "hash": "37e90aed3d5be988226d07135cad47f1ba57857316f8deac30221fc608698bdc"}
     },
     "defs": {
         "C_CHECK_VERSION": 1,
@@ -49,6 +49,6 @@
         "S_START_COOLTIME_SKILL": 1,
         "S_DECREASE_COOLTIME_SKILL"
         "S_START_COOLTIME_ITEM": 1,
-        "S_CREST_MESSAGE": 2,
+        "S_CREST_MESSAGE": 2
     }
 }
