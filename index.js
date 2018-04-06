@@ -45,7 +45,7 @@ function logError(message) {
     console.error(Array.isArray(message) ? message.join('\n') : message)
 }
 
-module.exports = function BattleNotify(dispatch){
+function BattleNotify(dispatch){
     let enabled = false
     const abMan = new AbnormalManager(dispatch, debug)
     const cooldown = new CooldownManager(dispatch, debug)
@@ -59,7 +59,7 @@ module.exports = function BattleNotify(dispatch){
     const combat = () => entities.myEntity().combat
     const enrage = () => entities.myBoss().enraged
 
-    dispatch.hook('S_LOGIN', 1, (event) => {
+    dispatch.hook('S_LOGIN', (dispatch.base.majorPatchVersion >= 67) ? 10 : 9, (event) => {
         enabled = true
         refreshConfig()
     })
@@ -377,4 +377,11 @@ module.exports = function BattleNotify(dispatch){
 
         //notify.testColors()
     }
+}
+
+module.exports = function BattleNotifyWrapper(dispatch) {
+    if(!dispatch.base.protocolVersion)
+        dispatch.hook('C_CHECK_VERSION', 1, (event) => { BattleNotify(dispatch); });
+    else
+        BattleNotify(dispatch);
 }
