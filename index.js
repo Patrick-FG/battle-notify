@@ -45,7 +45,7 @@ function logError(message) {
     console.error(Array.isArray(message) ? message.join('\n') : message)
 }
 
-function BattleNotify(dispatch){
+module.exports = function BattleNotify(dispatch){
     let enabled = false
     const abMan = new AbnormalManager(dispatch, debug)
     const cooldown = new CooldownManager(dispatch, debug)
@@ -377,11 +377,4 @@ function BattleNotify(dispatch){
 
         //notify.testColors()
     }
-}
-
-module.exports = function BattleNotifyWrapper(dispatch) {
-    if(!dispatch.base.protocolVersion)
-        dispatch.hook('C_CHECK_VERSION', 1, (event) => { BattleNotify(dispatch); });
-    else
-        BattleNotify(dispatch);
 }

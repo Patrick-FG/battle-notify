@@ -1,6 +1,6 @@
 {
     "files": {
-        "index.js": "c8874bcd5ef44407330b6dbc85c86ad3d270efc18ba7cf8a38e1223ac99f8b32",
+        "index.js": "d8fe030a74a5ed23c102a20f21745347b6ca74b9f80055a297fd4d22e60bfec5",
         "module.json": "c0cabf3d3de688e9e02cf22dffb335ee87ea4489ea5cf284a274fca8a829d712",
         "lib/abnormal.js": "dd573e37708561f043297992822d35c16c2ba658e267aac740830265321ed8b8",
         "lib/cooldown.js": "520e187b210d036bb8a98bf883da239284bd9f9819029d21cf860b0bce944a54",
@@ -24,7 +24,6 @@
         "config/warrior.js": {"overwrite": false, "hash": "37e90aed3d5be988226d07135cad47f1ba57857316f8deac30221fc608698bdc"}
     },
     "defs": {
-        "C_CHECK_VERSION": 1,
         "S_LOGIN": [9, 10],
         "S_PRIVATE_CHAT": 1,
         "C_CHAT": 1,
