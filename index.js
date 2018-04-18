@@ -59,7 +59,7 @@ module.exports = function BattleNotify(dispatch){
     const combat = () => entities.myEntity().combat
     const enrage = () => entities.myBoss().enraged
 
-    dispatch.hook('S_LOGIN', (dispatch.base.majorPatchVersion >= 67) ? 10 : 9, (event) => {
+    dispatch.hook('S_LOGIN', 10, (event) => {
         enabled = true
         refreshConfig()
     })

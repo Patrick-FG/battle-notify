@@ -1,12 +1,12 @@
 {
     "files": {
-        "index.js": "d8fe030a74a5ed23c102a20f21745347b6ca74b9f80055a297fd4d22e60bfec5",
+        "index.js": "c5fd2ae467b825143d3c16351868f46bc311b0599b80c67dc1284c05177b9d59",
         "module.json": "c0cabf3d3de688e9e02cf22dffb335ee87ea4489ea5cf284a274fca8a829d712",
         "lib/abnormal.js": "dd573e37708561f043297992822d35c16c2ba658e267aac740830265321ed8b8",
-        "lib/cooldown.js": "520e187b210d036bb8a98bf883da239284bd9f9819029d21cf860b0bce944a54",
-        "lib/entity.js": "94fef423d86b861192d17653fa27c24cc56cf2a5d0da03446f6c340e5fab81ad",
+        "lib/cooldown.js": "40f01ddcaf38832107abdbaacfafe168831cc3ff01042883e10e720e3281a182",
+        "lib/entity.js": "8f8a70ce9bfce0424e7bb2881d8ad3f6ffc73c9ac30be759ec282333efb7261f",
         "lib/notify.js": "7e87fd26ecd29ed35bc3a93bcbbfcea906000dd2ce4bbef4c7252ff89b219981",
-        "lib/party.js": "eb6be06b0b8b2a95d998d567c84e4b9b7f3b14dabb640d20dbf2ffb72c389747",
+        "lib/party.js": "af11e9ed7839f30d88bbe31b1641f6125f433a2881a6836daf110eeaf2c45250",
         "config/archer.js": {"overwrite": false, "hash": "21f3a5eb77fb52cad654a6fc778a5decd314de3fac3ebc612b1ddfce9f2246ca"},
         "config/berserker.js": {"overwrite": false, "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"},
         "config/brawler.js": {"overwrite": false, "hash": "0af0c21a24054308e1d834dda064951847124a902ecdd0fc49f9759a510f57dd"},
@@ -24,10 +24,10 @@
         "config/warrior.js": {"overwrite": false, "hash": "37e90aed3d5be988226d07135cad47f1ba57857316f8deac30221fc608698bdc"}
     },
     "defs": {
-        "S_LOGIN": [9, 10],
+        "S_LOGIN": 10,
         "S_PRIVATE_CHAT": 1,
         "C_CHAT": 1,
-        "S_PARTY_MEMBER_LIST": [5, 6],
+        "S_PARTY_MEMBER_LIST": 6,
         "S_LEAVE_PARTY_MEMBER": 2,
         "S_LEAVE_PARTY": 1,
         "S_CHAT": 2,
