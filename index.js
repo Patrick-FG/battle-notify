@@ -36,7 +36,7 @@ function tryRequire(path){
     } catch (e) {
         logError([
             `[battle-notify] require: error loading (${path})`,
-            result.stack
+            e.stack
         ])
     }
 }

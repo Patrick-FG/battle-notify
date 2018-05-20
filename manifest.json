@@ -1,6 +1,6 @@
 {
     "files": {
-        "index.js": "c5fd2ae467b825143d3c16351868f46bc311b0599b80c67dc1284c05177b9d59",
+        "index.js": "5ab1f4039607316e3b5520ffed821a54e72eafe0272ee232d20aa8a09dc0ae25",
         "module.json": "c0cabf3d3de688e9e02cf22dffb335ee87ea4489ea5cf284a274fca8a829d712",
         "lib/abnormal.js": "dd573e37708561f043297992822d35c16c2ba658e267aac740830265321ed8b8",
         "lib/cooldown.js": "40f01ddcaf38832107abdbaacfafe168831cc3ff01042883e10e720e3281a182",
