@@ -373,7 +373,7 @@ module.exports = function BattleNotify(dispatch){
         clearInterval(checkTimer)
     }
     if(debug) {
-        dispatch.toServer('C_CHAT', 1, {"channel":11,"message":"<FONT></FONT>"})
+        dispatch.send('C_CHAT', 1, {"channel":11,"message":"<FONT></FONT>"})
 
         //notify.testColors()
     }

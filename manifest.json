@@ -1,11 +1,11 @@
 {
     "files": {
-        "index.js": "5ab1f4039607316e3b5520ffed821a54e72eafe0272ee232d20aa8a09dc0ae25",
+        "index.js": "c2e8ad13fc5c63d1e2edfe85c1a195516c508412b57687d83cc85ab169812c98",
         "module.json": "c0cabf3d3de688e9e02cf22dffb335ee87ea4489ea5cf284a274fca8a829d712",
         "lib/abnormal.js": "dd573e37708561f043297992822d35c16c2ba658e267aac740830265321ed8b8",
         "lib/cooldown.js": "40f01ddcaf38832107abdbaacfafe168831cc3ff01042883e10e720e3281a182",
         "lib/entity.js": "8f8a70ce9bfce0424e7bb2881d8ad3f6ffc73c9ac30be759ec282333efb7261f",
-        "lib/notify.js": "7e87fd26ecd29ed35bc3a93bcbbfcea906000dd2ce4bbef4c7252ff89b219981",
+        "lib/notify.js": "1af87cc82030b05756a44a5c8d61a7a21da02eb37ca830dc3209cff25200c7a2",
         "lib/party.js": "af11e9ed7839f30d88bbe31b1641f6125f433a2881a6836daf110eeaf2c45250",
         "config/archer.js": {"overwrite": false, "hash": "21f3a5eb77fb52cad654a6fc778a5decd314de3fac3ebc612b1ddfce9f2246ca"},
         "config/berserker.js": {"overwrite": false, "hash": "3a5910661bd79b2a6b41d83a225b9d8556bdaa62d1991417e199efb7121b1276"},
