@@ -4,7 +4,7 @@
         "module.json": "c0cabf3d3de688e9e02cf22dffb335ee87ea4489ea5cf284a274fca8a829d712",
         "lib/abnormal.js": "dd573e37708561f043297992822d35c16c2ba658e267aac740830265321ed8b8",
         "lib/cooldown.js": "40f01ddcaf38832107abdbaacfafe168831cc3ff01042883e10e720e3281a182",
-        "lib/entity.js": "8f8a70ce9bfce0424e7bb2881d8ad3f6ffc73c9ac30be759ec282333efb7261f",
+        "lib/entity.js": "661b4ca66ff0d0cc7ac1622c744cdd30d1f55581b981a28e417406abe0aff9ea",
         "lib/notify.js": "1af87cc82030b05756a44a5c8d61a7a21da02eb37ca830dc3209cff25200c7a2",
         "lib/party.js": "af11e9ed7839f30d88bbe31b1641f6125f433a2881a6836daf110eeaf2c45250",
         "config/archer.js": {"overwrite": false, "hash": "21f3a5eb77fb52cad654a6fc778a5decd314de3fac3ebc612b1ddfce9f2246ca"},
