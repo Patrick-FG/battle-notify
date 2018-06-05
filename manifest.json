@@ -33,7 +33,7 @@
         "S_CHAT": 2,
         "S_DUNGEON_EVENT_MESSAGE": 1,
         "S_BOSS_GAGE_INFO": 3,
-        "S_EACH_SKILL_RESULT": 5,
+        "S_EACH_SKILL_RESULT": 6,
         "S_CREATURE_CHANGE_HP": 6,
         "S_CREATURE_LIFE": 2,
         "S_NPC_STATUS": 1,
